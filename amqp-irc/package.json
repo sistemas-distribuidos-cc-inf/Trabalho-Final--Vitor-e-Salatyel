@@ -1,0 +1,13 @@
+{
+  "name": "p3-g5",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ./**/*.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "irc": "^0.5.2",
+    "telegraf": "^3.16.4"
+  }
+}

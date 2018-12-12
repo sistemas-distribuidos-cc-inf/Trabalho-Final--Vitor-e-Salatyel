@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Chat IRC</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body class="container">
+
+<div id="particles-js" style="background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">
+    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+</div>
+
+<div id="topo">
+    <a href="https://www2.emc.ufg.br/" target="_blank"><img class="logo" id="emc" src="images/emc.png"
+                                                            alt="EMC-UFG"/></a>
+    <a href="https://www.ufg.br/" target="_blank"><img class="logo" id="ufg" src="images/ufg.png" alt="UFG"/></a>
+</div>
+
+<div class="wrapper">
+    <form class="form-signin" action="/login" method="post">
+        <h2 class="form-signin-heading">Seja bem vindo(a)</h2>
+        <input class="form-control" type="text" name="nickname" placeholder="Nickname" required>
+        <small class="form-text text-muted">  O nickname é obrigatório</small>
+
+        <input class="form-control" type="text" name="username" placeholder="Username">
+        <small class="form-text text-muted">  O username padrão é o mesmo escolhido para o nickname</small>
+
+        <input class="form-control" type="text" name="channel" placeholder="Nome do canal">
+        <small class="form-text text-muted">  O canal padrão é #sd1-ec-2017</small>
+
+        <input class="form-control" type="text" name="server" placeholder="Endereço do servidor">
+        <small class="form-text text-muted">  O servidor padrão é irc.freenode.net</small>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+    </form>
+
+    <a href="https://gitlab.com/sd1-ec-2017-2/p3-g5/" target="_blank"
+       style="text-decoration: none; color: #495057"><span id="developer">
+        Desenvolvimento
+        <img id="dev" src="images/gitlab.png" alt="P2-G5"/> </span>
+    </a>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="lib/jQuey/jQuery.js" type="text/javascript"></script>
+<script src="lib/popper/popper.js" type="text/javascript"></script>
+<script src="lib/bootstrap/bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="lib/bootstrap/particles.js"></script>
+<script type="text/javascript" src="lib/bootstrap/app.js"></script>
+</body>
+</html>

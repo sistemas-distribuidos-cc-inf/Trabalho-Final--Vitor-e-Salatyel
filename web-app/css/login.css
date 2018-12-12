@@ -1,0 +1,110 @@
+body.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+#topo{
+    display: block;
+    margin: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 0;
+}
+
+img.logo{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    opacity: .5;
+    align-self: center;
+
+}
+
+img.logo:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.25);
+}
+
+img#ufg{
+    width: 40px;
+    top: 100px;
+}
+
+.wrapper {
+   display: inline-block;
+   position: absolute;
+   z-index: 10;
+   background: #eee;
+   top: 70px;
+   margin-left: 20vw;
+   padding: 20px;
+   border-radius: 4px;
+   box-sizing: border-box;
+   z-index: 100;
+
+}
+
+.form-signin {
+    max-width: 500px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-signin .form-signin-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-signin .form-control {
+    /*position: relative;*/
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#particles-js{
+    position: absolute;
+    top: 50px;
+    background: #001a33;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+    margin: 0px 0px 0px 0px;
+    left: 0px;
+}
+
+
+span#developer{
+    opacity: .5;
+    font-size: 9pt;
+    font: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+span#developer:hover{
+    opacity: 1;
+}
+img#dev{
+    width: 15px;
+    height: 15px;
+
+}
+
+small {
+    margin-bottom: 13px;
+}
