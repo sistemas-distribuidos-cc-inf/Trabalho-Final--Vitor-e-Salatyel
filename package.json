@@ -1,0 +1,41 @@
+{
+  "name": "p3-g5",
+  "version": "1.0.0",
+  "description": "Projeto 3 - Disciplina de Sistemas Distribuidos 1",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ./**/*.js",
+    "queues": "watch -n 1 sudo rabbitmqctl list_queues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sd1-ec-2017-2/p2-g5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sd1-ec-2017-2/p2-g5/issues"
+  },
+  "homepage": "https://gitlab.com/sd1-ec-2017-2/p2-g5#README",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "eslint": "4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "irc": "^0.5.2",
+    "socket.io": "^2.0.3",
+    "socket.io-cookie": "0.0.1",
+    "winston": "^2.4.0",
+    "winston-console-formatter": "^0.3.1",
+    "telegraf": "^3.16.4"
+  }
+}
