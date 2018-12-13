@@ -1,4 +1,4 @@
-# Trabalho-Final--Vitor-e-Salatyel
+# Como executar
 Protótipo de cliente web para servidor IRC utilizando RabbitMQ para desacoplar cliente do servidor tornando mais escalável.
 
 ***Antes de rodar programa: 
