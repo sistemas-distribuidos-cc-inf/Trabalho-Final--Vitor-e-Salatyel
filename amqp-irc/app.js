@@ -26,7 +26,7 @@ amqp.publish('processarComando',data);
 })
 bot.command('channel', (ctx) => {
  pass=ctx.message.text.substr(ctx.message.text.indexOf(' ')+1)
- if(pass=='sd1-ec-2017-p3-g5')
+ if(pass=='sd-2018-2')
  	ctx.reply('t.me/joinchat/AAAAAEszZfr9E7DU1d7vLg')
  else
  	ctx.reply('senha incorreta')
