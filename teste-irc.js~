@@ -1,8 +1,8 @@
 var irc = require('irc');
 
 var servidor = 'irc.freenode.net';
-var nick = 'marceloakira2';
-var canal = '#sd1-ec-2016-2';
+var nick = 'teste';
+var canal = '#sd-2018-2';
 
 var client = new irc.Client( 	servidor,
 				nick,
