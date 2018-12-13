@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/sd1-ec-2017-2/p2-g5.git"
+    "url": "git+https://github.com/sistemas-distribuidos-cc-inf/Trabalho-Final--Vitor-e-Salatyel.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/sd1-ec-2017-2/p2-g5/issues"
+    "url": "https://github.com/sistemas-distribuidos-cc-inf/Trabalho-Final--Vitor-e-Salatyel/issues"
   },
-  "homepage": "https://gitlab.com/sd1-ec-2017-2/p2-g5#README",
+  "homepage": "https://github.com/sistemas-distribuidos-cc-inf/Trabalho-Final--Vitor-e-Salatyel",
   "devDependencies": {
     "nodemon": "^1.12.1",
     "eslint": "4.7.2",
