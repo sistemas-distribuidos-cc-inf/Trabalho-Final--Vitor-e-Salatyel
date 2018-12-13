@@ -7,7 +7,7 @@ Protótipo de cliente web para servidor IRC utilizando RabbitMQ para desacoplar 
 
 - Instalar Erlang e rabbitMQ (tutorial p/ Windows: https://www.youtube.com/watch?v=OJ3onEUxBAQ);
 
-- Baixar GIT desktop (p/Windows: https://gitforwindows.org/).
+- Baixar GIT BASH (p/Windows: https://gitforwindows.org/).
 
 ----------------------------------------------------------------
 
