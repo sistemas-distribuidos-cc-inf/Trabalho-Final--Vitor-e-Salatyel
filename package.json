@@ -1,7 +1,7 @@
 {
-  "name": "p3-g5",
+  "name": "Trabalho-Final--Vitor-e-Salatyel",
   "version": "1.0.0",
-  "description": "Projeto 3 - Disciplina de Sistemas Distribuidos 1",
+  "description": "Projeto final - Disciplina de Sistemas Distribuidos",
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint ./**/*.js",
