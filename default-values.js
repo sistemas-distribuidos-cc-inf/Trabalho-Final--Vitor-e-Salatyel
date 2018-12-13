@@ -2,6 +2,6 @@ module.exports = {
   userName: function (nickname) {
     return nickname;
   },
-  channel: '#sd1-ec-2017',
+  channel: '#sd-2018-2',
   server: 'irc.freenode.net'
 }
